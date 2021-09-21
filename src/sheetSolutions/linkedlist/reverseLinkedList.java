@@ -44,7 +44,7 @@ public class reverseLinkedList {
         return head;
 
     }
-    static Node reverseUtil(Node curr,Node prev){
+    static Node reverseUtil(Node curr,Node prev){//tail recursion
         if (curr==null)
             return curr; //linked list is empty
         if(curr.next==null){
