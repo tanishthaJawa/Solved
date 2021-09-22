@@ -100,15 +100,16 @@ public class SinglyLinkedList4 {
 
     public static void main(String[] args) {
         SinglyLinkedList4 list4=new SinglyLinkedList4();
-        list4.addFirst(1);
-        list4.addLast(2);
+        list4.addFirst(5);
+        list4.addLast(1);
         list4.addLast(3);
         list4.addLast(4);
         list4.addLast(5);
-        list4.addLast(6);
-        list4.addLast(7);
+        list4.addLast(3);
+        list4.addLast(5);
         list4.head.next.next.next.next.next.next.next= list4.head.next.next.next;
         list4.detectLoop(list4.head);
         list4.printLinkedList();
+
     }
 }

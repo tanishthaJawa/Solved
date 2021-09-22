@@ -1,5 +1,7 @@
 package sheetSolutions.linkedlist;
-
+/*
+This program aims to move first node to last node
+ */
 public class moveLastNodeToFront {
     static void moveNode(Node head){
         if(head==null || head.next==null){
