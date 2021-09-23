@@ -1,6 +1,8 @@
 package sheetSolutions.linkedlist;
-
-public class detectloop {
+/*
+This program aims to detect a loop in linked list. A loop exists if a node points to any other node in the list
+ */
+public class detectLoop {
     public static boolean detectLoop1(Node head){
         // Add code here
         Node slowFp=head,fastFp=head.next;
