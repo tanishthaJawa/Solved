@@ -2,7 +2,7 @@ package sheetSolutions.linkedlist;
 /*
 This method aims to find duplicates in a sorted array.
  */
-public class removeDuplicates {
+public class removeDuplicatesInSortedLinkedList {
     Node removeDuplicates(Node head)
     {
         // Your code here
