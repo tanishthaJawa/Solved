@@ -22,7 +22,7 @@ public class reverseDLLforGivenSize {
      // Checking if the reversed LinkedList size is
      // equal to K or not. If it is not equal to k
      // that means we have reversed the last set of
-     // size K and we don't need to call the
+     // size K, and we don't need to call the
      // recursive function
      if(count>=k){
         Node rest=reverse(curr,k);
