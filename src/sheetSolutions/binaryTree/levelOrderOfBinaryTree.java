@@ -3,29 +3,29 @@ package sheetSolutions.binaryTree;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+// This program aims to find the find its level order traversal.
+//Level order traversal of a tree is breadth-first traversal for the tree.
 
-// This program aims to find the left view of binary tree.
-public class rightViewOfBinaryTree {
-    static ArrayList<Integer> rightView(Node root){
-        if(root==null)
+public class levelOrderOfBinaryTree {
+    static ArrayList <Integer> levelOrder(Node node)
+    {
+        // Your code here Time complexity:o(n) space complexity:O(n)
+        if(node==null)
             return new ArrayList<>();
-        Queue<Node> q=new LinkedList<>();
+        Queue<Node> q= new LinkedList<>();
         ArrayList<Integer> result= new ArrayList<>();
-        q.add(root);
-        while (!q.isEmpty()){
-            int count=q.size(); // number of nodes at current level
-            for (int i = 0; i < count ; i++) { // Traverse all nodes of current level
-                Node temp= q.poll(); //current node
-                if(i==(count-1)){
-                    result.add(temp.data);   // Print the right most element at the level
-                }
-                if(temp.left!=null){ // Add all the children of node
+        q.add(node);
+        while(!q.isEmpty()){
+            int count=q.size();// number of nodes at current level
+            for(int i=0;i< count;i++){ // Traverse all nodes of current level
+                Node temp=q.poll(); //current node
+                result.add(temp.data);
+                if(temp.left!=null) // Add all the children of node
                     q.add(temp.left);
-                }
-                if(temp.right!=null){
+                if(temp.right!=null)
                     q.add(temp.right);
-                }
             }
+
         }
         return result;
     }
@@ -53,6 +53,6 @@ public class rightViewOfBinaryTree {
         root.right.left.left = new Node(7);
         root.right.left.right = new Node(8);
 
-        System.out.println(rightView(root));
+        System.out.println(levelOrder(root));
     }
 }
