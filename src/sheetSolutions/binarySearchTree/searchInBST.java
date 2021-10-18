@@ -1,4 +1,4 @@
-package sheetSolutions.BinarySearchTree;
+package sheetSolutions.binarySearchTree;
 //This program aims to search and insert a value in a tree
 public class searchInBST {
     // time complexity :O(logN)

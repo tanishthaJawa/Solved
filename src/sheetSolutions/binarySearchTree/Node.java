@@ -1,4 +1,4 @@
-package sheetSolutions.BinarySearchTree;
+package sheetSolutions.binarySearchTree;
 
 public class Node {
     public int data;
