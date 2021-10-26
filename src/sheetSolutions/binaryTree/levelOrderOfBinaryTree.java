@@ -16,7 +16,7 @@ public class levelOrderOfBinaryTree {
         ArrayList<Integer> result= new ArrayList<>();
         q.add(node);
         while(!q.isEmpty()){
-            int count=q.size();// number of nodes at current level
+            int count=q.size();// number of nodes at current level. It works without these statements as well.
             for(int i=0;i< count;i++){ // Traverse all nodes of current level
                 Node temp=q.poll(); //current node
                 result.add(temp.data);
