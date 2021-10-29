@@ -47,6 +47,7 @@ public class convertToSumTree {
         return oldValue+ root.data;// return previous value of root as well so that they can be used for summation
     }
 
+
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
