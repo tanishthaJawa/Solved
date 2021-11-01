@@ -22,7 +22,7 @@ public class diameterOfTree {
           return 0;//diameter is 0
       }
       int lDiameter=diameter(root.left,lh);//compute left and right diameters
-       int rDiameter=diameter(root.left,lh);
+       int rDiameter=diameter(root.right,lh);
        ht.h=Math.max(lh.h, rh.h)+1;//get the height
        return 1+Math.max(lh.h+rh.h+1,Math.max(lDiameter,rDiameter));// find max between height and diameters
    }
