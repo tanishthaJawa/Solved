@@ -22,21 +22,21 @@ public class sortArrayOf0s1s2s {
         int low = 0, mid = 0, high,temp;
         high = ar.length - 1;
         while(mid<=high){
-            switch(ar[mid]){
-                case 0: temp=ar[mid];
-                        ar[mid]=ar[low];
-                        ar[low]=temp;
-                        low++;
-                        mid++;
-                        break;
-                case 1: mid= mid+1;
-                        break;
-                case 2:  temp=ar[mid];
-                         ar[mid]=ar[high];
-                         ar[high]=temp;
-                         high--;
-                         break;
-
+            switch (ar[mid]) {
+                case 0 -> {
+                    temp = ar[mid];
+                    ar[mid] = ar[low];
+                    ar[low] = temp;
+                    low++;
+                    mid++;
+                }
+                case 1 -> mid = mid + 1;
+                case 2 -> {
+                    temp = ar[mid];
+                    ar[mid] = ar[high];
+                    ar[high] = temp;
+                    high--;
+                }
             }
         }
     }
@@ -44,15 +44,9 @@ public class sortArrayOf0s1s2s {
         int c0=0,c1=0,c2=0;
         for (int j : ar) {
             switch (j) {
-                case 0:
-                    c0++;
-                    break;
-                case 1:
-                    c1++;
-                    break;
-                case 2:
-                    c2++;
-                    break;
+                case 0 -> c0++;
+                case 1 -> c1++;
+                case 2 -> c2++;
             }
         }
         int k=0;

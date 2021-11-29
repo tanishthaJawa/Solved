@@ -1,6 +1,6 @@
 package sheetSolutions.array;
 /*
-used to solve largest continuous sum of sub array problem
+used to solve the largest continuous sum of sub array problem
  */
 /*
 @author-tanishtha

@@ -15,7 +15,7 @@ public class minMax {
             minmax.max=ar[0];
             minmax.min=ar[0];
         }
-        //If there are more than one elements, then initialize min and max
+        //If there are more than one element, then initialize min and max
         if(ar[0]<ar[1]){
                 minmax.min=ar[0];
                 minmax.max=ar[1];
@@ -39,7 +39,7 @@ public class minMax {
         //tournament method .worst number of comparisons=2(n-2)+1
         /* use divide and conquer approach .Best comparisons 1+n-2 */
         pair minMax2= new pair();
-        pair mml= new pair(); pair mmr= new pair();
+        pair mml; pair mmr;
 
         if(low==high){
             minMax2.max=ar[low];
@@ -83,7 +83,7 @@ public class minMax {
         int i;
         /* if array contains even no. of elements we find min and max from first and second elements of array
         and initialize the min and max. But when array has odd no. of elements we set min and max to first element
-        only.This is done so as to ensure that we always compare elements in pair .
+        only.This is done to ensure that we always compare elements in pair .
          */
         if(n%2==0){
             if(ar[0]< ar[1]){
