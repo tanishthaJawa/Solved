@@ -22,14 +22,13 @@ public class removeLoop {
                       slow=slow.next;
                       fast=fast.next;
                   }
-                  fast.next=null;//fast points to last loop node;
               }
               else {//checks if slow and fast meet at head
                   while (fast.next!=slow){
                       fast=fast.next;//will point to last node
                   }
-                  fast.next=null;
               }
+              fast.next=null;//fast points to last loop node;
           }
     }
 }

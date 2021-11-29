@@ -29,7 +29,7 @@ public class mergeSortForLinkedLists {
            return head1;// this becomes head of new list as it will be the min element
        }
        else{
-           head2.next=mergeLists(head2.next,head1);
+           head2.next=mergeLists(head1,head2.next);
            return head2;
        }
     }
