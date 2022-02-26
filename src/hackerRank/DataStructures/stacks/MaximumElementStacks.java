@@ -1,4 +1,4 @@
-package hackerRank.DataStructures;
+package hackerRank.DataStructures.stacks;
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -17,16 +17,13 @@ public class MaximumElementStacks {
         int item=0;
         List<Integer>a=new ArrayList<>();
         for(String c:operations){
-            switch(c){
-                case "1": a.add(item,++top);
-                    break;
-                case "2":a.remove(top);
+            switch (c) {
+                case "1" -> a.add(item, ++top);
+                case "2" -> {
+                    a.remove(top);
                     top--;
-                    break;
-                case "3": ;
-                    System.out.println(""+Collections.max(a));
-                    break;
-
+                }
+                case "3" -> System.out.println("" + Collections.max(a));
             }
         }
         return a;

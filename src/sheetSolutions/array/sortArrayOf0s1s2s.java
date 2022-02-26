@@ -2,7 +2,7 @@ package sheetSolutions.array;
 
 import java.util.Scanner;
 /*
-This program sorts an array of 0s ,1s,2s
+This program sorts an array of 0s ,1s,2s without using any sorting algorithms
 
 Approach:
 Keep three indices low = 1, mid = 1 and high = N and there are four ranges, 1 to low (the range containing 0),

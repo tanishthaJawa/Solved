@@ -3,7 +3,7 @@ package sheetSolutions.searchSort;
 import java.util.ArrayList;
 
 public class valueEqualToIndexValue {
-  static ArrayList<Integer> valueEqualToIndex(int arr[], int n) {
+  static ArrayList<Integer> valueEqualToIndex(int[] arr, int n) {
     // code here
     ArrayList<Integer> output = new ArrayList<>();
     for (int i = 0; i < n; i++) {
