@@ -13,7 +13,7 @@ undo - Undo the last (not previously undone) operation of type  or , reverting  
 
  */
 public class textEditor {
-    //logic is correct but gives tle in some cases due to some input issues
+  // logic is correct but gives tle in some cases due to some input issues
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     int n = in.nextInt();
@@ -22,21 +22,23 @@ public class textEditor {
     st.push(s);
     for (int i = 0; i < n; i++) {
       int t = in.nextInt();
-        switch (t) {
-            case 1 -> {
-                s = s + in.nextInt();
-                st.push(s);
-            }
-            case 2 -> {
-                s = s.substring(0, s.length() - in.nextInt());
-                st.push(s);
-            }
-            case 3 -> System.out.println(s.charAt(in.nextInt() - 1));
-            case 4 -> {
-                st.pop();
-                s = st.peek();
-            }
-        }
+      switch (t) {
+        case 1:
+          s = s + in.nextInt();
+          st.push(s);
+          break;
+        case 2:
+          s = s.substring(0, s.length() - in.nextInt());
+          st.push(s);
+          break;
+        case 3:
+          System.out.println(s.charAt(in.nextInt() - 1));
+          break;
+        case 4:
+          st.pop();
+          s = st.peek();
+          break;
+      }
     }
   }
 }
