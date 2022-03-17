@@ -3,6 +3,7 @@ package sheetSolutions.stackNQueues;
 import java.util.Stack;
 
 public class balancedParentheses {
+
   static boolean isPar(String x) {
     Stack<Character> s = new Stack<>();
     for (int i = 0; i < x.length(); i++) {
