@@ -1,7 +1,5 @@
 package leetCode.Arrays;
 
-import java.util.List;
-
 public class RepeatedNumber {
     public static int repeated(int[] a) {
         // Write your code here
