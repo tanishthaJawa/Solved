@@ -1,6 +1,6 @@
 package leetCode.Arrays;
-
-public class RepeatedNumber {
+// Aims to find only number that is not repeated in array.
+public class SingleNumber {
     public static int repeated(int[] a) {
         // Write your code here
         int rep=0;
