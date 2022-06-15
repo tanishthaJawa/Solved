@@ -20,7 +20,7 @@
 | :green_circle:     | :white_check_mark:  | [Solution](moveNegativeNumbers.java) | :star: [Move all the negative elements to one side of the array](https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/)
 | :green_circle:     | :white_check_mark:  | [Solution](unionAndIntersection.java) |[Find the Union and Intersection of the two sorted arrays.](https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/)
 | :green_circle:     | :white_check_mark:  | [Solution](cyclicRotation.java) |[Write a program to cyclically rotate an array by one.](https://www.geeksforgeeks.org/c-program-cyclically-rotate-array-one/)
-| :orange_circle:     | :negative_squared_cross_mark:  | [Solution](LargestSumContiguousSubArray.java) |:star: [find Largest sum contiguous sub-array](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+| :orange_circle:     | :white_check_mark:  | [Solution](largestContiguousSumSubArray.java) |:star: [find Largest sum contiguous sub-array](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |:star: [Minimise the maximum difference between heights ](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Minimum no. of Jumps to reach end of an array](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[find duplicate in an array of N+1 Integers](https://leetcode.com/problems/find-the-duplicate-number/)
