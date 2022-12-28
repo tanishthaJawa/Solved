@@ -31,7 +31,7 @@ public class LowestCommonAncestor {
                3
              /   \
             /     \
-           2       7
+           2       7    4,1
           /      /   \
          /      /     \
         1      5       9
