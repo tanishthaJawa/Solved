@@ -51,6 +51,6 @@ public class KthLargestInBST {
         root1.left = new Node(2);
         root1.right = new Node(9);
 
-        System.out.println(tree.kthLargest(root1,2 ));
+        System.out.println(tree.kthLargest(root1, 2));
     }
 }

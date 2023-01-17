@@ -7,7 +7,7 @@ public class SortStack {
     public void sort2(Stack<Integer> s) {
         // Take care of recursion stack
         if (!s.isEmpty()) {
-          int  temp = s.pop();
+            int temp = s.pop();
             sort2(s);
             sortInsert(s, temp);
         }
