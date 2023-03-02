@@ -25,7 +25,7 @@
 | :green_circle:     | :white_check_mark:  | [Solution](ReverseAnArray.java) | [Right View of Tree](https://practice.geeksforgeeks.org/problems/right-view-of-binary-tree/1)
 | :green_circle:     | :white_check_mark:  | [Solution](ReverseAnArray.java) | [Top View of a tree](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
 | :green_circle:     |:white_check_mark:  | [Solution](ReverseAnArray.java) | [Bottom View of a tree](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Zig-Zag traversal of a binary tree](https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1)
+| :green_circle:     | :white_check_mark:    | [Solution](ReverseAnArray.java) | [Zig-Zag traversal of a binary tree](https://practice.geeksforgeeks.org/problems/zigzag-tree-traversal/1)
 | :green_circle:     | :white_check_mark:  | [Solution](ReverseAnArray.java) | [Check if a tree is balanced or not](https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Diagnol Traversal of a Binary tree](https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Boundary traversal of a Binary tree](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1)
