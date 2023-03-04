@@ -35,6 +35,7 @@ public class ZigZagTraversalOfBinaryTree {
                 Collections.reverse(nodesAtCurrentLevel);
             }
 
+
             for (Node currNode : nodesAtCurrentLevel) {
                 zigZagTraversal.add(currNode.data);
             }
