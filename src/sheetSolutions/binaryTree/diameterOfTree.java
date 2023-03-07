@@ -29,6 +29,27 @@ public class diameterOfTree {
         return 1 + Math.max(lh.h + rh.h + 1, Math.max(lDiameter, rDiameter));// find max between height and diameters
     }
 
+    // Another Approach
+    int diameter = 0;
+
+    public int diameterOfBinaryTree(Node root) {
+        if (root == null) {
+            return 0;
+        }
+        height(root);
+        return diameter;
+    }
+
+    public int height(Node root) {
+        if (root == null) {
+            return 0;
+        }
+        int leftHeight = height(root.left);
+        int rightHeight = height(root.right);
+        diameter = Math.max(leftHeight + rightHeight, diameter);
+        return Math.max(leftHeight, rightHeight) + 1;
+    }
+
     public static void main(String[] args) {
 
         Node root = new Node(1);
