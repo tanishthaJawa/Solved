@@ -38,31 +38,31 @@ public class BinaryTreeFromPreorderAndInorder {
     /*
     Another approach:
      */
-//    public Node build1(int[] preorder, int[] inorder) {
-//        Stack<Node> st = new Stack<>();
-//        Set<Node> set = new HashSet<>();
-//        for (int pre = 0, in = 0; pre < preorder.length; pre++) {
-//            Node root = null;
-//            Node node;
-//            do {
-//
-//                node = new Node(preorder[pre]);
-//                if (root == null) {
-//                    root = node;
-//                }
-//                if (!st.isEmpty()) {
-//                    if (set.contains(node)) {
-//                        set.remove(st.peek());
-//                        st.pop().right = node;
-//                    } else {
-//                        st.peek().left = node;
-//                    }
-//                }
-//                st.push(node);
-//            } while (preorder[pre++] != inorder[in] && pre < preorder.length);
-////            while(in<inorder.length && preorder[pre]==inorder[in])
-//        }
-//    }
+    public Node build1(int[] preorder, int[] inorder) {
+        Stack<Node> st = new Stack<>();
+        Set<Node> set = new HashSet<>();
+        for (int pre = 0, in = 0; pre < preorder.length; pre++) {
+            Node root = null;
+            Node node;
+            do {
+
+                node = new Node(preorder[pre]);
+                if (root == null) {
+                    root = node;
+                }
+                if (!st.isEmpty()) {
+                    if (set.contains(node)) {
+                        set.remove(st.peek());
+                        st.pop().right = node;
+                    } else {
+                        st.peek().left = node;
+                    }
+                }
+                st.push(node);
+            } while (preorder[pre++] != inorder[in] && pre < preorder.length);
+//            while(in<inorder.length && preorder[pre]==inorder[in])
+        }
+    }
 
     public static void main(String[] args) {
         BinaryTreeFromPreorderAndInorder treeFromPreorderAndInorder = new BinaryTreeFromPreorderAndInorder();

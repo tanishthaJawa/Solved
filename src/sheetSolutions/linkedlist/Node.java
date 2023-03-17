@@ -1,8 +1,8 @@
 package sheetSolutions.linkedlist;
 
 public class Node {
-    int value;
-    Node next;
+    public int value;
+    public Node next;
     Node prev;
     Node bottom;
     Node(int value) {
