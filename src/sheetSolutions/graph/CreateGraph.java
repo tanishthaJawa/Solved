@@ -33,14 +33,18 @@ public class CreateGraph<T> {
         System.out.println("The no. of vertex in graph is " + map.keySet().size());
     }
 
-    public void getEdgesCount(boolean areAllEdgesBidirectional) {
-        int count = 0;
+    public void getEdgesCount() {
+        int count = 0, bidirectionalEdges = 0;
         for (T vertex : map.keySet()) {
-            count += map.get(vertex).size();
+            for (T edge : map.get(vertex)) {
+                if (isEdgeBidirectional(vertex, edge)) {
+                    bidirectionalEdges++;
+                } else {
+                    count++;
+                }
+            }
         }
-        if (areAllEdgesBidirectional) {
-            count /= 2;
-        }
+        count = count + (bidirectionalEdges / 2);
         System.out.println("The no. of edges in graph is " + count);
     }
 
@@ -63,6 +67,12 @@ public class CreateGraph<T> {
         }
     }
 
+    private boolean isEdgeBidirectional(T s, T d) {
+        if (!map.containsKey(s) && map.containsKey(d)) {
+            return false;
+        }
+        return map.get(s).contains(d) && map.get(d).contains(s);
+    }
 
     @Override
     public String toString() {
@@ -80,10 +90,11 @@ public class CreateGraph<T> {
     public static void main(String[] args) {
         CreateGraph<Integer> graph = new CreateGraph<>();
         graph.addEdge(1, 2, true);
-        graph.addEdge(1, 3, true);
+        graph.addEdge(1, 3, false);
         graph.addEdge(1, 5, true);
-        graph.addEdge(2, 4, true);
+        graph.addEdge(2, 4, false);
         graph.addEdge(3, 4, true);
+        graph.addEdge(4, 5, false);
 
         System.out.println("Graph:\n" + graph);
 
@@ -91,7 +102,7 @@ public class CreateGraph<T> {
         graph.getVertexCount();
 
         // Gives the no of edges in the graph.
-        graph.getEdgesCount(true);
+        graph.getEdgesCount();
 
         // Tells whether the edge is present or not.
         graph.hasEdge(6, 4);
