@@ -5,13 +5,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-/*
-It won't work if graph contains both bidirectional and unidirectional graph in that case either use an enum or something.
- */
 public class CreateGraph<T> {
     private final Map<T, List<T>> map = new HashMap<>();
 
-    public void addVertex(T s) {
+    private void addVertex(T s) {
         map.put(s, new LinkedList<>());
     }
 
