@@ -31,10 +31,7 @@ public class FindSubArrayWith0Sum {
         Set<Integer> hs = new HashSet<>();
         for (int i : arr) {
             sum += i;
-            if (sum == 0
-                    || i == 0
-                    || hs.contains(
-                    sum)) { // check if sum is 0 or the element is 0 or set has seen the sum before
+            if (sum == 0 || i == 0 || hs.contains(sum)) { // check if sum is 0 or the element is 0 or set has seen the sum before
                 return true; // there exists a sub array
             }
             hs.add(sum);
