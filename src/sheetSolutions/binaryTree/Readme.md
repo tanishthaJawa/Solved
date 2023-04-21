@@ -46,5 +46,5 @@
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Find LCA in a Binary tree](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Find distance between 2 nodes in a Binary tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Kth Ancestor of node in a Binary tree](https://www.geeksforgeeks.org/kth-ancestor-node-binary-tree-set-2/)
-| :green_circle:     | :egative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Find all Duplicate subtrees in a Binary tree \[ IMP \]](https://practice.geeksforgeeks.org/problems/duplicate-subtrees/1)
+| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Find all Duplicate subtrees in a Binary tree \[ IMP \]](https://practice.geeksforgeeks.org/problems/duplicate-subtrees/1)
 | :green_circle:     | :white_check_mark:  | [Solution](CheckIfTwoTreesAreIsomorphic.java)  | [Tree Isomorphism Problem](https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1)
