@@ -1,6 +1,10 @@
 package sheetSolutions.array;
 
 // Program to return min and max from an array in min no of comparisons
+// Three approaches to solve the problem:
+// 1. Using sorting
+// 2. Using linear search
+// 3. Split the array in two parts and find min and max in each of themk.
 public class minMax {
     // to return two values from a method
     static class pair {
