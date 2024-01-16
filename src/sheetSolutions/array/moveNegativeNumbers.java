@@ -48,6 +48,25 @@ public class moveNegativeNumbers {
         }
     }
 
+    static void rearrangeNumbersUsingDutchNationalFlagApproach(int [] ar){
+        int low =0, high = ar.length -1;
+        while(low<=high){
+            if(ar[low] <= 0){
+                low++;
+            }
+            else{
+                swap(ar, low, high)
+                high --;
+            }
+        }
+    }
+
+    static void swap(int [] ar, int i, int j){
+        int temp = ar[i];
+        ar[i] = ar[j];
+        ar[j] = temp;
+    }
+
     static void printArray(int[] ar) {
         for (int j : ar) {
             System.out.print(j + " ");
