@@ -36,8 +36,8 @@ public class MinimiseMaxDifferenceBetweenHeights {
             if (arr[idx] < k) {
                 continue; // so that we do not end up having negative value at partition
             }
-            currMin = Math.min(arr[0] + k, arr[idx] + k);
-            currMax = Math.max(arr[idx - 1] - k, arr[n - 1] - k);
+            currMin = Math.min(arr[0] + k, arr[idx] - k);
+            currMax = Math.max(arr[idx - 1] + k, arr[n - 1] - k);
             minimumDifference = Math.min(minimumDifference, currMax - currMin);
         }
         return minimumDifference;
