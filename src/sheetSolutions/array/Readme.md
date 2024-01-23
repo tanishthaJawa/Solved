@@ -31,7 +31,7 @@
 | :green_circle:     | :negative_squared_cross_mark: | [Solution](ReverseAnArray.java)                     |[Count Inversion](https://practice.geeksforgeeks.org/problems/inversion-of-array/0)
 | :green_circle:     | :white_check_mark:  | [Solution](BuyAndSellStock.java)                    |[Best time to buy and Sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 | :green_circle:     | :white_check_mark:  | [Solution](printAllPairSum.java)                    |[find all pairs on integer array whose sum is equal to given number](https://www.geeksforgeeks.org/print-all-pairs-with-given-sum/)
-| :green_circle:     | :white_check_mark:  | [Solution](CommonInThreeSortedArrays.java)          |[find common elements In 3 sorted arrays](https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/)
+| :green_circle:     | :white_check_mark:  | [Solution](commonInThreeSortedArrays.java)          |[find common elements In 3 sorted arrays](https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/)
 | :green_circle:     | :negative_squared_cross_mark: | [Solution](ReverseAnArray.java)                     |[Rearrange the array in alternating positive and negative items with O(1) extra space](https://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/)
 | :green_circle:     | :white_check_mark:  | [Solution](FindSubArrayWith0Sum.java)               |[Find if there is any subarray with sum equal to 0](https://practice.geeksforgeeks.org/problems/subarray-with-0-sum/0)
 | :green_circle:     | :negative_squared_cross_mark: | [Solution](ReverseAnArray.java)                     |[Find factorial of a large number](https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers/0)
