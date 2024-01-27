@@ -29,7 +29,7 @@ public class SmallestSubArrayWithSumGreaterThanX {
                 if (right - left < minLen) {
                     minLen = right - left;
                 }
-                // remove starting elements
+                // remove starting elements to keep a sliding window to left. Check with example
                 sum -= arr[left];
                 left++;
             }
