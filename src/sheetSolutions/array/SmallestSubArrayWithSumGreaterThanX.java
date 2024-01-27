@@ -17,15 +17,19 @@ public class SmallestSubArrayWithSumGreaterThanX {
      Time Complexity: O(n)
      */
     public static int smallestSubWithSum(int[] arr, int n, int x) {
-        int minLen = 0, left = 0, right = 0, sum = 0;
+        int minLen = n+1, left = 0, right = 0, sum = 0;
         while (right < n) {
+             // Keep adding array elements while current sum
+            // is smaller than or equal to x
             sum += arr[right];
             right++; // index is already incremented
 
-            while (sum > x) {
+            while (sum > x && left < n) {
+                 // Update minimum length if needed
                 if (right - left < minLen) {
                     minLen = right - left;
                 }
+                // remove starting elements
                 sum -= arr[left];
                 left++;
             }
