@@ -39,7 +39,7 @@
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Implement "n" queue in an array](https://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Implement a Circular queue](https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [LRU Cache Implementationa](https://practice.geeksforgeeks.org/problems/lru-cache/1)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Reverse a Queue using recursion](https://practice.geeksforgeeks.org/problems/queue-reversal/1)
+| :green_circle:     | :white_check_mark:  | [Solution](ReverseQueueWithRecursion.java)               | [Reverse a Queue using recursion](https://practice.geeksforgeeks.org/problems/queue-reversal/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Reverse the first “K” elements of a queue](https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Interleave the first half of the queue with second half](https://www.geeksforgeeks.org/interleave-first-half-queue-second-half/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Find the first circular tour that visits all Petrol Pumps](https://practice.geeksforgeeks.org/problems/circular-tour/1)
