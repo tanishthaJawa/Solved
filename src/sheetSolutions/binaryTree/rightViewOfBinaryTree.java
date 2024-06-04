@@ -29,6 +29,24 @@ public class rightViewOfBinaryTree {
         }
         return result;
     }
+ int maxLevel;
+    static ArrayList<Integer> rightView2(Node root){
+        List<Integer> arr = new ArrayList<>();
+        maxLevel =0;
+        rightViewHelper(root, arr, 0);
+        return arr;
+    }
+
+    static void rightViewHelper(Node root, List<Integer> arr , int prevLevel){
+        if(root == null) return;
+        int currLevel = prevLevel+1;
+        if(currLevel>maxLevel){
+            maxLevel = currLevel;
+            arr.add(root.data);
+        }
+        rightViewHelper(root.right, arr, currLevel);
+        rightViewHelper(root.left, arr, currLevel);
+    }
 
     public static void main(String[] args) {
         /* Construct the following tree
