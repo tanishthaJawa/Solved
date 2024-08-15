@@ -8,14 +8,14 @@
 
     - :star: Important
     - :white_check_mark: Done
-    - :negative_squared_cross_mark: Not done
+    - :red_negative_squared_cross_mark: Not done
 
 
 | Difficulty       | Done                          | Solution                                       | Problem                                                                                                                                                                                                                                                                                                            |
 | -------------    | ------------------------------ |------------------------------------------------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | :green_circle:     | :white_check_mark:  | [Solution](levelOrderOfBinaryTree.java)        | [level order traversal](https://practice.geeksforgeeks.org/problems/level-order-traversal/1)
 | :green_circle:     | :white_check_mark:  | [Solution](reverseLevelOrderOfBinaryTree.java) | [Reverse Level Order traversal](https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1)
-| :green_circle:     | ::white_check_mark:  | [Solution](heightOfTree.java)                  | [Height of a tree](https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1)
+| :green_circle:     | :white_check_mark:  | [Solution](heightOfTree.java)                  | [Height of a tree](https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1)
 | :green_circle:     | :white_check_mark:  | [Solution](diameterOfTree.java)                | [Diameter of a tree](https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1)
 | :green_circle:     | :white_check_mark:  | [Solution](mirrorOfTree.java)                  | [Mirror of a tree](https://www.geeksforgeeks.org/create-a-mirror-tree-from-the-given-binary-tree/)
 | :green_circle:     | :white_check_mark:  | [Solution](inOrderTraversaljava)               | [Inorder Traversal of a tree both using recursion and Iteration](https://www.techiedelight.com/inorder-tree-traversal-iterative-recursive/)
@@ -29,7 +29,7 @@
 | :green_circle:     | :white_check_mark:  | [Solution](checkIfTreeIsBalancedorNot.java)    | [Check if a tree is balanced or not](https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1)
 | :green_circle:     | :white_check_mark: | [Solution](DiagonalTraversalOfBinaryTree.java) | [Diagnol Traversal of a Binary tree](https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/)
 | :green_circle:     | :white_check_mark:  | [Solution](BoundaryTraversal.java)             | [Boundary traversal of a Binary tree](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Construct Binary Tree from String with Bracket Representation](https://www.geeksforgeeks.org/construct-binary-tree-string-bracket-representation/)
+| :green_circle:     | :red_negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Construct Binary Tree from String with Bracket Representation](https://www.geeksforgeeks.org/construct-binary-tree-string-bracket-representation/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Convert Binary tree into Doubly Linked List](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1)
 | :green_circle:     | :white_check_mark:  | [Solution](convertToSumTree.java)              | [Convert Binary tree into Sum tree](https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1)
 | :green_circle:     | :white_check_mark:  | [Solution](BinaryTreeFromPreorderAndInorder.java)                | [Construct Binary tree from Inorder and preorder traversal](https://practice.geeksforgeeks.org/problems/construct-tree-1/1)
