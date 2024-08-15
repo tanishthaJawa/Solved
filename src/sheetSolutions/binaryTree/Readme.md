@@ -8,7 +8,7 @@
 
     - :star: Important
     - :white_check_mark: Done
-    - :red_negative_squared_cross_mark: Not done
+    - :negative_squared_cross_mark: Not done
 
 
 | Difficulty       | Done                          | Solution                                       | Problem                                                                                                                                                                                                                                                                                                            |
@@ -29,7 +29,7 @@
 | :green_circle:     | :white_check_mark:  | [Solution](checkIfTreeIsBalancedorNot.java)    | [Check if a tree is balanced or not](https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1)
 | :green_circle:     | :white_check_mark: | [Solution](DiagonalTraversalOfBinaryTree.java) | [Diagnol Traversal of a Binary tree](https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/)
 | :green_circle:     | :white_check_mark:  | [Solution](BoundaryTraversal.java)             | [Boundary traversal of a Binary tree](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1)
-| :green_circle:     | :red_negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Construct Binary Tree from String with Bracket Representation](https://www.geeksforgeeks.org/construct-binary-tree-string-bracket-representation/)
+| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Construct Binary Tree from String with Bracket Representation](https://www.geeksforgeeks.org/construct-binary-tree-string-bracket-representation/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)                | [Convert Binary tree into Doubly Linked List](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1)
 | :green_circle:     | :white_check_mark:  | [Solution](convertToSumTree.java)              | [Convert Binary tree into Sum tree](https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1)
 | :green_circle:     | :white_check_mark:  | [Solution](BinaryTreeFromPreorderAndInorder.java)                | [Construct Binary tree from Inorder and preorder traversal](https://practice.geeksforgeeks.org/problems/construct-tree-1/1)
