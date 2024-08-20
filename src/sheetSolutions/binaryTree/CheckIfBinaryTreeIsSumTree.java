@@ -9,6 +9,9 @@ public class CheckIfBinaryTreeIsSumTree {
         // Check if the left and right subtrees are Sum Trees
         int leftSum = getSum(root.left);
         int rightSum = getSum(root.right);
+        if(leftSum ==-1 || rightSum ==-1){
+            return false;
+        }
         return root.data == leftSum + rightSum && isSumTree(root.left) && isSumTree(root.right);
     }
 
