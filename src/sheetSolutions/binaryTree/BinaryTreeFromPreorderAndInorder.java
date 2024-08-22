@@ -27,7 +27,7 @@ public class BinaryTreeFromPreorderAndInorder {
     }
      // Method 2
 
-     public static Node buildTree(int inorder[], int preorder[], int n)
+     public static Node buildTree2(int inorder[], int preorder[], int n)
     {
         // Map has no role in this question 
         HashMap<Integer,Integer> map = new HashMap<>();
