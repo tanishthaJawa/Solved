@@ -41,7 +41,7 @@
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [LRU Cache Implementationa](https://practice.geeksforgeeks.org/problems/lru-cache/1)
 | :green_circle:     | :white_check_mark:  | [Solution](ReverseQueueWithRecursion.java)               | [Reverse a Queue using recursion](https://practice.geeksforgeeks.org/problems/queue-reversal/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Reverse the first “K” elements of a queue](https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Interleave the first half of the queue with second half](https://www.geeksforgeeks.org/interleave-first-half-queue-second-half/)
+| :green_circle:     | :white_check_mark: | [Solution](InterleaveFirstHalfAndSecondHalf.java)               | [Interleave the first half of the queue with second half](https://www.geeksforgeeks.org/interleave-first-half-queue-second-half/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Find the first circular tour that visits all Petrol Pumps](https://practice.geeksforgeeks.org/problems/circular-tour/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Minimum time required to rot all oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Distance of nearest cell having 1 in a binary matrix](https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1/0)
