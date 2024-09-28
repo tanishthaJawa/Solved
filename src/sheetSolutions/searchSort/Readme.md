@@ -37,7 +37,7 @@
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Find pivot element in a sorted array](http://theoryofprogramming.com/2017/12/16/find-pivot-element-sorted-rotated-array/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [K-th Element of Two Sorted Arrays](https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Aggressive cows](https://www.spoj.com/problems/AGGRCOW/)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Book Allocation Problem](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0)
+| :green_circle:     | :white_check_mark:    | [Solution](BookAllocation.java) | [Book Allocation Problem](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [EKOSPOJ:](https://www.spoj.com/problems/EKO/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Job Scheduling Algo](https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Missing Number in AP](https://practice.geeksforgeeks.org/problems/arithmetic-number/0)
