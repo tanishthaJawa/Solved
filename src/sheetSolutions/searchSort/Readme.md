@@ -40,7 +40,7 @@
 | :green_circle:     | :white_check_mark:    | [Solution](BookAllocation.java) | [Book Allocation Problem](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [EKOSPOJ:](https://www.spoj.com/problems/EKO/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Job Scheduling Algo](https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Missing Number in AP](https://practice.geeksforgeeks.org/problems/arithmetic-number/0)
+| :green_circle:     | :white_check_mark:   | [Solution](MissingNumberInAP.java) | [Missing Number in AP](https://practice.geeksforgeeks.org/problems/arithmetic-number/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Smallest number with atleastn trailing zeroes infactorial](https://practice.geeksforgeeks.org/problems/smallest-factorial-number5929/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Painters Partition Problem:](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [ROTI-Prata SPOJ](https://www.spoj.com/problems/PRATA/)
