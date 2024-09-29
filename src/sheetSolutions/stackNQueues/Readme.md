@@ -21,7 +21,7 @@
 | :green_circle:     | :white_check_mark: | [Solution](balancedparentheses.java)          | [Check the expression has valid or Balanced parenthesis or not.](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0)
 | :green_circle:     | :white_check_mark:  | [Solution](reverseStringUsingStack.java)      | [Reverse a String using Stack](https://practice.geeksforgeeks.org/problems/reverse-a-string-using-stack/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Design a Stack that supports getMin() in O(1) time and O(1) extra space.](https://practice.geeksforgeeks.org/problems/special-stack/1)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Find the next Greater element](https://practice.geeksforgeeks.org/problems/next-larger-element/0)
+| :green_circle:     |  :white_check_mark:  | [Solution](NextGreaterElement.java)               | [Find the next Greater element](https://practice.geeksforgeeks.org/problems/next-larger-element/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [The celebrity Problem](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Arithmetic Expression evaluation](https://www.geeksforgeeks.org/arithmetic-expression-evalution/#:~:text=The%20stack%20organization%20is%20very,i.e.%2C%20A%20%2B%20B).)
 | :green_circle:     | :white_check_mark:  | [Solution](evaluationOfPostFixOperation.java) | [Evaluation of Postfix expression](https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0)
