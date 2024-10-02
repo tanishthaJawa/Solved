@@ -42,7 +42,7 @@
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Job Scheduling Algo](https://www.geeksforgeeks.org/weighted-job-scheduling-log-n-time/)
 | :green_circle:     | :white_check_mark:   | [Solution](MissingNumberInAP.java) | [Missing Number in AP](https://practice.geeksforgeeks.org/problems/arithmetic-number/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Smallest number with atleastn trailing zeroes infactorial](https://practice.geeksforgeeks.org/problems/smallest-factorial-number5929/1)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Painters Partition Problem:](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0)
+| :green_circle:     | :white_check_mark:   | [Solution](PaintersPartition.java) | [Painters Partition Problem:](https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [ROTI-Prata SPOJ](https://www.spoj.com/problems/PRATA/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [DoubleHelix SPOJ](https://www.spoj.com/problems/ANARC05B/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) | [Subset Sums](https://www.spoj.com/problems/SUBSUMS/)
