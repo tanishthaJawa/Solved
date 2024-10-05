@@ -29,7 +29,7 @@
 | :green_circle:     | :white_check_mark: | [Solution](ReverseStackUsingRecursion.java)   | [Reverse a stack using recursion](https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/)
 | :green_circle:     | :white_check_mark:  | [Solution](SortStack.java)                    | [Sort a Stack using recursion](https://practice.geeksforgeeks.org/problems/sort-a-stack/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Merge Overlapping Intervals](https://practice.geeksforgeeks.org/problems/overlapping-intervals/0)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Largest rectangular Area in Histogram](https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram/0)
+| :green_circle:     |  :white_check_mark:  | [Solution](MaxAreaOfAHistogram.java)               | [Largest rectangular Area in Histogram](https://practice.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Length of the Longest Valid Substring](https://practice.geeksforgeeks.org/problems/valid-substring0624/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java)               | [Expression contains redundant bracket or not](https://www.geeksforgeeks.org/expression-contains-redundant-bracket-not/)
 | :green_circle:     | :white_check_mark:  | [Solution](StacksUsingTwoQueues.java)         | [Implement Stack using Queue](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)
