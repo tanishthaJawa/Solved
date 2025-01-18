@@ -20,7 +20,7 @@
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Program for nth Catalan Number](https://www.geeksforgeeks.org/program-nth-catalan-number/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Matrix Chain Multiplication ](https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Edit Distance](https://practice.geeksforgeeks.org/problems/edit-distance3702/1)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Partion Equal Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1)
+| :green_circle:     | :white_check_mark:  | [Solution](EqualSumPartition.java) |[Partion Equal Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Friends Pairing Problem](https://practice.geeksforgeeks.org/problems/friends-pairing-problem5425/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Gold Mine Problem](https://www.geeksforgeeks.org/gold-mine-problem/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Assembly Line SchedulingProblem](https://www.geeksforgeeks.org/assembly-line-scheduling-dp-34/)
