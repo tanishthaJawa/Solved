@@ -13,7 +13,7 @@
 
 | Difficulty       | Done                          | Solution  | Problem                                                                                                                                                                                                                                                                                                            |
 | -------------    | ------------------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Coin ChangeProblem](https://practice.geeksforgeeks.org/problems/coin-change2448/1)
+| :green_circle:     | :white_check_mark:  | [Solution](CoinChangeProblem.java) |[Coin ChangeProblem](https://practice.geeksforgeeks.org/problems/coin-change2448/1)
 | :green_circle:     | :white_check_mark:  | [Solution](KnapSack.java) |[Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Binomial CoefficientProblem](https://practice.geeksforgeeks.org/problems/ncr1019/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Permutation CoefficientProblem](https://www.geeksforgeeks.org/permutation-coefficient/)
