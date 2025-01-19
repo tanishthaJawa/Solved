@@ -1,3 +1,4 @@
+
 import java.util.Arrays;
 
 /*
@@ -13,27 +14,27 @@ Explanation: The subsets {5, 2, 3}, {2, 8}, and {10} sum up to the target 10.
  */
 public class Main {
 
-    static int countSubSets(int[] arr, int target){
-        return countSubsetsHelper(0,0,arr, target);
+    static int countSubSets(int[] arr, int target) {
+        return countSubsetsHelper(0, 0, arr, target);
     }
 
     private static int countSubsetsHelper(int i, int currSum, int[] arr, int target) {
-        int n =arr.length;
-        if(i==n){
-            return currSum == target? 1:0;
+        int n = arr.length;
+        if (i == n) {
+            return currSum == target ? 1 : 0;
         }
-        int exclude = countSubsetsHelper(i+1,currSum,arr, target);
-        int include =0;
-        if(arr[i]+currSum<=target){
-            include = countSubsetsHelper(i+1,currSum+arr[i], arr, target);
+        int exclude = countSubsetsHelper(i + 1, currSum, arr, target);
+        int include = 0;
+        if (arr[i] + currSum <= target) {
+            include = countSubsetsHelper(i + 1, currSum + arr[i], arr, target);
         }
-        return include+exclude;
+        return include + exclude;
     }
 
     // Function to recursively count
     // subsets with a given sum using memoization
     static int countSubsetsMemoized(int i, int currentSum, int target,
-                            int[] arr, int[][] dp) {
+                                    int[] arr, int[][] dp) {
         int n = arr.length;
 
         // Base case: If we've processed all elements in the array
@@ -86,11 +87,10 @@ public class Main {
         for (int i = 1; i <= n; i++) {
             // Going from 0 because of 0 inputs. This will cause the 0 subsets to be included.
             for (int j = 0; j <= target; j++) {
-                if(arr[i-1]<=j){
-                    dp[i][j] = dp[i-1][j-arr[i-1]] + dp[i-1][j];
-                }
-                else{
-                    dp[i][j]= dp[i-1][j];
+                if (arr[i - 1] <= j) {
+                    dp[i][j] = dp[i - 1][j - arr[i - 1]] + dp[i - 1][j];
+                } else {
+                    dp[i][j] = dp[i - 1][j];
                 }
             }
         }
@@ -98,3 +98,5 @@ public class Main {
         return dp[n][target];
     }
 }
+
+
