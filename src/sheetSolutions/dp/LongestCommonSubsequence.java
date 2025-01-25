@@ -25,9 +25,19 @@ public class LongestCommonSubsequence {
         }
     }
 
-    static int lcsMemoized(String s1, String s2, int m, int n) {
+    static int lcsMemoized(String s1, String s2) {
         // your code here
+        int m = s1.length();
+        int n = s2.length();
         int[][] dp = new int[m + 1][n + 1];
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
+        }
+        return lcsHelper(s1, s2, m, n, dp);
+    }
+
+    static int lcsHelper(String s1, String s2, int m, int n, int[][] dp) {
+
         if (m == 0 || n == 0) {
             return 0;
         }
@@ -37,13 +47,12 @@ public class LongestCommonSubsequence {
         }
 
         if (s1.charAt(m - 1) == s2.charAt(n - 1)) {
-            dp[m][n] = 1 + lcsMemoized(s1, s2, m - 1, n - 1);
+            dp[m][n] = 1 + lcsHelper(s1, s2, m - 1, n - 1, dp);
         } else {
-            dp[m][n] = Math.max(lcsMemoized(s1, s2, m - 1, n), lcsMemoized(s1, s2, m, n - 1));
+            dp[m][n] = Math.max(lcsHelper(s1, s2, m - 1, n, dp), lcsHelper(s1, s2, m, n - 1, dp));
         }
         return dp[m][n];
     }
-
 
     static int lcsTabulated(String s1, String s2) {
         // your code here
