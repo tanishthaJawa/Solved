@@ -26,7 +26,7 @@
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Assembly Line SchedulingProblem](https://www.geeksforgeeks.org/assembly-line-scheduling-dp-34/)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Painting the Fenceproblem](https://practice.geeksforgeeks.org/problems/painting-the-fence3727/1)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Maximize The Cut Segments](https://practice.geeksforgeeks.org/problems/cutted-segments/0)
-| :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)
+| :green_circle:     | :negative_squared_cross_mark:  | [Solution](LongestCommonSubsequence.java) |[Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Longest Repeated Subsequence](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Longest Increasing Subsequence](https://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0)
 | :green_circle:     | :negative_squared_cross_mark:  | [Solution](ReverseAnArray.java) |[Space Optimized Solution of LCS](https://www.geeksforgeeks.org/space-optimized-solution-lcs/)
